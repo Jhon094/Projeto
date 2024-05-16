@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
   <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,12 +15,18 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Rhonintree</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="container">
-      <div id="profile">
+      <div
+        id="profile"
+        data-aos="fade-up"
+        data-aos-delay="250"
+        data-aos-duration="400"
+      >
         <img
           src="./assets/avatar.png"
           alt="Personagem de anime fumando vaper,com oculos, cabelos pretos e fundo rosa"
@@ -27,28 +34,34 @@
         <p>@Rhoninbala</p>
       </div>
 
-      <div id="switch" onclick="toggleMode()">
+      <div
+        id="switch"
+        onclick="toggleMode()"
+        data-aos="fade-up"
+        data-aos-delay="350"
+        data-aos-duration="400"
+      >
         <button></button>
         <span></span>
       </div>
 
       <ul>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="450" data-aos-duration="500">
           <a href="https://www.twitch.tv/lilkye0" target="_blank">
             <ion-icon name="logo-twitch"></ion-icon> Siga-me na Twitch</a
           >
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="550" data-aos-duration="500">
           <a href="https://discord.gg/zZFUsffwh9" target="_blank">
             <ion-icon name="logo-discord"></ion-icon> Server do Discord</a
           >
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="650" data-aos-duration="500">
           <a href="https://github.com/Jhon094" target="_blank">
             <ion-icon name="logo-github"></ion-icon>Meu Github</a
           >
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="750" data-aos-duration="500">
           <a
             href="https://www.linkedin.com/in/djones-santana-414995302/"
             target="_blank"
@@ -59,22 +72,42 @@
       </ul>
       <div id="social-links">
         <a href="https://twitter.com/Rhoninflex" target="_blank"
-          ><ion-icon name="logo-twitter"></ion-icon>
+          ><ion-icon
+            name="logo-twitter"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="500"
+          ></ion-icon>
         </a>
         <a href="https://www.instagram.com/rhoninbala" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon
+            name="logo-instagram"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-duration="500"
+          ></ion-icon>
         </a>
         <a
           href="https://www.youtube.com/channel/UCyNptN57eHHCqY2GX1y9Gug"
           target="_blank"
-          ><ion-icon name="logo-youtube"></ion-icon>
+          ><ion-icon
+            name="logo-youtube"
+            data-aos="fade-up"
+            data-aos-delay="700"
+            data-aos-duration="500"
+          ></ion-icon>
         </a>
         <a href="https://www.facebook.com/djonesmisias.dejesus" target="_blank"
-          ><ion-icon name="logo-Facebook"></ion-icon>
+          ><ion-icon
+            name="logo-Facebook"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-duration="500"
+          ></ion-icon>
         </a>
       </div>
 
-      <footer>
+      <footer data-aos="fade-up" data-aos-delay="950" data-aos-duration="400">
         Feito com ♥ por
         <a href="https://www.instagram.com/rhoninbala" target="_blank"
           >Rhonin
